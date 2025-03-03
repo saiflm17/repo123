@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
     name: mydeploy
 spec:
-    replicas: 4
+    replicas: 3
     selector:
        matchLabels:
           app: swiggy
@@ -15,6 +15,6 @@ spec:
        spec:
           containers:
              - name: cont01
-               image: shaikmustafa/paytm:bus
+               image: saikumar1817/trevis:v1
                ports:
-                 - containerPort: 80
+                 - containerPort: 3000
