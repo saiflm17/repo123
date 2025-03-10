@@ -15,6 +15,6 @@ spec:
        spec:
           containers:
              - name: cont01
-               image: saikumar1817/my-trevis:v1
+               image: saikumar1817/trevis-project:v1
                ports:
                  - containerPort: 3000
